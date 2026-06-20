@@ -4,62 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ICP Youth Circle</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f7fa;
-      color: #222;
+      background: #f4f6f8;
+      color: #2c3e50;
     }
 
     header {
-      background: #1e2a38;
+      background: #0d47a1;
       color: white;
-      padding: 20px;
+      padding: 25px 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
+      font-size: 2em;
     }
 
     header p {
       margin-top: 8px;
+      font-size: 15px;
+      color: #d0e2ff;
+    }
+
+    nav {
+      background: #ffffff;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #0d47a1;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 600;
       font-size: 14px;
-      color: #cfd8e3;
+    }
+
+    nav a:hover {
+      color: #1565c0;
     }
 
     .container {
-      padding: 20px;
       max-width: 1000px;
       margin: auto;
+      padding: 25px 15px;
     }
 
     .card {
       background: white;
-      padding: 15px;
-      margin: 10px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 18px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 
     .card h2 {
       margin-top: 0;
+      color: #0d47a1;
     }
 
-    footer {
-      text-align: center;
-      padding: 15px;
-      font-size: 13px;
-      background: #1e2a38;
-      color: white;
-      margin-top: 20px;
+    .card p {
+      color: #555;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
     }
 
     a {
       text-decoration: none;
-      color: #1e88e5;
-      font-weight: bold;
+      color: #1565c0;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      font-size: 13px;
+      background: #0d47a1;
+      color: white;
+      margin-top: 30px;
     }
   </style>
 </head>
@@ -68,39 +110,63 @@
 
 <header>
   <h1>ICP Youth Circle</h1>
-  <p>All-in-one education hub for School, College, and University students</p>
+  <p>Your complete education hub for students</p>
 </header>
+
+<nav>
+  <a href="#mcqs">MCQs</a>
+  <a href="#notes">Study Notes</a>
+  <a href="#admissions">Admissions</a>
+  <a href="#updates">Updates</a>
+</nav>
 
 <div class="container">
 
-  <div class="card">
+  <div class="card" id="mcqs">
     <h2>MCQs Practice</h2>
-    <p>Practice MCQs for all subjects and improve your exam preparation.</p>
+    <p>Practice MCQs for all subjects.</p>
+    <ul>
+      <li><a href="#">Physics MCQs</a></li>
+      <li><a href="#">Chemistry MCQs</a></li>
+      <li><a href="#">Biology MCQs</a></li>
+    </ul>
   </div>
 
-  <div class="card">
+  <div class="card" id="notes">
     <h2>Study Notes</h2>
-    <p>Access organized notes for school, college, and university levels.</p>
-  </div><a href="Online-Book Class 11 (2022).pdf" target="_blank">
-        Physics Book By Bilal Zia
+    <p>Access organized study materials.</p>
+    <ul>
+      <li><a href="online-book-class-11-2022.pdf" target="_blank">Physics Book (Class 11)</a></li>
+      <li><a href="#">Chemistry Notes</a></li>
+      <li><a href="#">Mathematics Notes</a></li>
+    </ul>
+  </div>
 
-  <div class="card">
+  <div class="card" id="admissions">
     <h2>Admissions Info</h2>
-    <p>Get updates about colleges, universities, and entry test admissions.</p>
+    <p>Latest university and college admissions updates.</p>
+    <ul>
+      <li><a href="#">University Admissions</a></li>
+      <li><a href="#">Entry Test Updates</a></li>
+      <li><a href="#">Scholarships</a></li>
+    </ul>
   </div>
 
-  <div class="card">
+  <div class="card" id="updates">
     <h2>Educational Updates</h2>
-    <p>Latest information related to exams, results, and academic news.</p>
+    <p>Stay updated with exams and results.</p>
+    <ul>
+      <li><a href="#">Exam Schedule</a></li>
+      <li><a href="#">Results</a></li>
+      <li><a href="#">News</a></li>
+    </ul>
   </div>
 
-    </a>
 </div>
-</a>
+
 <footer>
   © 2026 ICP Youth Circle | Educational Platform
 </footer>
 
 </body>
 </html>
-</a>
