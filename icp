@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICP Youth Circle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #1e2a38;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #cfd8e3;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+      background: #1e2a38;
+      color: white;
+      margin-top: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1e88e5;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ICP Youth Circle</h1>
+  <p>All-in-one education hub for school, college, and university students</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>MCQs Practice</h2>
+    <p>Practice MCQs for all subjects and improve your exam preparation.</p>
+  </div>
+
+  <div class="card">
+    <h2>Study Notes</h2>
+    <p>Access organized notes for school, college, and university levels.</p>
+  </div>
+
+  <div class="card">
+    <h2>Admissions Info</h2>
+    <p>Get updates about colleges, universities, and entry test admissions.</p>
+  </div>
+
+  <div class="card">
+    <h2>Educational Updates</h2>
+    <p>Latest information related to exams, results, and academic news.</p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 ICP Youth Circle | Educational Platform
+</footer>
+
+</body>
+</html>
